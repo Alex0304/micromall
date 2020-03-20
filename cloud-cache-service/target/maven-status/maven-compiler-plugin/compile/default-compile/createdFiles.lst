@@ -1,0 +1,4 @@
+com\ch\cloud\service\impl\CacheServiceImpl.class
+com\ch\cloud\config\properties\CacheServiceConfigProperties.class
+com\ch\cloud\service\CacheService.class
+com\ch\cloud\config\CacheServiceConfig.class

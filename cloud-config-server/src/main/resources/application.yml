@@ -1,0 +1,20 @@
+server:
+  port: 12580
+spring:
+  application:
+    name: springcloud-config-server
+  cloud:
+   config:
+    server:
+      git:
+        uri: https://gitee.com/chen_huan123456/cloud-config
+        search-paths:
+          - cloud-config
+        username: 15899765639@163.com
+        password: 200834052chen
+    label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+
